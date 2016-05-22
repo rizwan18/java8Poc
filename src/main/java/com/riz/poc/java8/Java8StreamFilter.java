@@ -1,9 +1,12 @@
 package com.riz.poc.java8;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+@Component
 public class Java8StreamFilter {
 
     private final List<Person> persons;
